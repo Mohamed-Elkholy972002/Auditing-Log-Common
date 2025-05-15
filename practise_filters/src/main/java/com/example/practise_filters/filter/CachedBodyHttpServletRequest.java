@@ -36,9 +36,7 @@ public class CachedBodyHttpServletRequest extends HttpServletRequestWrapper {
             public void setReadListener(ReadListener readListener) {}
 
             @Override
-            public int read() throws IOException {
-                return byteArrayInputStream.read();
-            }
+            public int read() throws IOException { return byteArrayInputStream.read(); }
         };
     }
 
