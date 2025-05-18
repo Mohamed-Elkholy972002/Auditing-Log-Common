@@ -1,10 +1,10 @@
-package com.example.practise_filters;
+package com.example.CRUD_Project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PractiseFiltersApplicationTests {
+class CrudProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
